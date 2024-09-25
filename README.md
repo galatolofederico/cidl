@@ -4,17 +4,31 @@
 
 Welcome to the official repository for the course [Computational Intelligence and Deep Learning](https://esami.unipi.it/programma.php?c=61134&aa=2023&docente=GALATOLO&insegnamento=&sd=0).
 
-This repository serves as a comprehensive resource hub, providing you with essential slides, materials, and collaborative code developed during lectures
+This repository serves as a comprehensive resource hub, providing you with essential slides, materials, and exercise solutions.
 
 ## What's Inside? 📂
 
 1. **Slides:** Access the presentation slides used in class to reinforce key concepts and insights.
 2. **Materials:** Find supplementary materials that complement the course content, helping you delve deeper into specific topics.
-3. **Collaborative Code:** Explore the code developed collectively during lectures. This collaborative effort ensures a hands-on understanding of the theoretical concepts discussed.
+3. **Exercises Solutions:** Access detailed solutions to the exercises assigned during the course to enhance your understanding of key concepts and coding practices.
 
 ## How to Navigate 🗺️
 
 Feel free to navigate through the repository to locate the specific resources you need. Exploring the repository is quite straightforward. Each lecture has its dedicated folder, housing a README file and associated materials for your convenience.
+
+## Unlocking Solutions 🔓
+
+The solutions for the exercises are locked and will require a password to access. After each lecture, the lecturer will provide the necessary password to unlock the relevant solutions. You can use the `lock.py` script to unlock these files by following these steps:
+
+1. Open a terminal in the repository directory.
+2. Run the following command: `python lock.py unlock <Lecture Number>`
+3. Enter the password provided by the lecturer to unlock the solutions.
+
+Replace `<Lecture Number>` with the relevant lecture (e.g., `Lecture 1`).
+
+If successful, you will gain access to the exercise solutions for that lecture. Remember to keep the passwords secure and only share them with those who are enrolled in the course **this year**.
+
+Keep in mind that the files are stored in a `lock.zip` file inside each lecture directory, and you can also extract the zip manually using any zip extraction program.
 
 ## Lectures 🎓
 
