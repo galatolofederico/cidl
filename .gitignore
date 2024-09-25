@@ -1,0 +1,27 @@
+*/.venv
+.env
+
+# Exercises
+Lecture 1/Exercises.pdf
+Lecture 1/Exercises.pptx
+Lecture 2/ex1.ipynb
+Lecture 2/ex2.ipynb
+Lecture 3/ex0.ipynb
+Lecture 3/ex1.ipynb
+Lecture 3/ex2.ipynb
+Lecture 4/ex1.ipynb
+Lecture 4/ex2.ipynb
+Lecture 5/ex1.ipynb
+Lecture 5/ex2_logvar.ipynb
+Lecture 5/ex2.ipynb
+Lecture 6/ex1.ipynb
+Lecture 6/ex2.ipynb
+Lecture 7/ex1.ipynb
+Lecture 7/ex2-trad.ipynb
+Lecture 7/ex2-vae.ipynb
+Lecture 8/ex1.ipynb
+Lecture 8/ex2.ipynb
+Lecture 8/ex3.ipynb
+Recap 1/ex1.ipynb
+Recap 1/ex2.ipynb
+Recap 1/ex3.ipynb
