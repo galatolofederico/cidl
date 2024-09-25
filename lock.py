@@ -91,11 +91,10 @@ def green(s):
 def list_files():
     for lock in locks:
         location = lock['location']
-        lock_zip = os.path.join(location, 'lock.zip')
-        if os.path.exists(lock_zip):
-            red(f"🔒 {location}")
-        else:
-            green(f"🔓 {location}")
+        locked_files = [os.path.join(location, f) for f in lock['files']]
+        unlocked = all([os.path.exists(f) for f in locked_files])
+        if unlocked: green(f"🔓 {location}")
+        else: red(f"🔒 {location}")
 
 def check_files():
     all_exist = True
