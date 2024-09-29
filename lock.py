@@ -157,7 +157,9 @@ def lock_files():
             lock_zip = os.path.join(location, 'lock.zip')
 
             if os.path.exists(lock_zip):
-                os.remove(lock_zip)
+                red(f"Locked file {lock_zip} already exists, skipping...")
+                continue
+            
             cmd = ['zip', '-r', '--password', password, 'lock.zip'] + files
             subprocess.run(cmd, cwd=location, check=True)
 
