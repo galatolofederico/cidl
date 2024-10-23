@@ -1,0 +1,21 @@
+{
+	"name": "CIDL Devcontainer",
+	"image": "galatolofederico/cidl:latest",
+	"overrideCommand": false,
+	"forwardPorts": [8888],
+	"portsAttributes": {
+		"8888": {
+			"label": "Jupyter",
+			"requireLocalPort": true,
+			"onAutoForward": "ignore"
+		}
+	},
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"python.defaultInterpreterPath": "/opt/conda/bin/python"
+			},
+			"extensions": ["ms-python.python", "ms-toolsai.jupyter"]
+		}
+	}
+}
