@@ -1,4 +1,4 @@
-# Lecture 3: Recurrent Neural Networks (RNN)
+# Lecture 4: Recurrent Neural Networks (RNN)
 
 ## Overview 🌐
 
