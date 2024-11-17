@@ -1,4 +1,4 @@
-# Lecture 5: Vector Quantized Variational Autoencoders (VQ-VAE)
+# Lecture 6: Vector Quantized Variational Autoencoders (VQ-VAE)
 
 ## Overview 🌐
 
